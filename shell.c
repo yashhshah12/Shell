@@ -16,7 +16,7 @@ int initShell(int fileDescriptor ,  pid_t *shell_pgid);
 int main(){
     pid_t shell_pgid  = 0;
     int fileDescriptor = STDIN_FILENO;
-    printf("%d\n" ,fileDescriptor);
+    
      initShell(fileDescriptor , &shell_pgid);
      char input[buffer_size];
      char *arr[MAX_ARGS] = {NULL};
