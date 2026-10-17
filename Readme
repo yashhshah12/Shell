@@ -1,0 +1,25 @@
+Posix shell project
+
+Hello friend i have create a posix shell project which supporting feature such as binary execution, pipe, file redirection, signal 
+
+In this project i have learn about standard system call and rule and architecture of unix os and also learn about to navigate unix or linux man and understand the funcationality of the C library, System call and utility tool
+
+System call i have used for this
+fork
+execvp
+chdir
+and many more
+
+To make this project over engineer and useless 
+
+Instead of have having one project file i have spit it into 5 different file and during compilation instead of using make i am manually compiling the project and run it
+
+And instead of using c library for converting string into token i have manually chop the string into token code in (token.parser.c)
+
+The started way for text formation in project as shell is to build command in tree datastructure so instead of tree i have used flat array 
+
+And while prompting command he printf useless message in while prompting command it display hello sir how can i help you
+in cd which by standard navigate to home but instead of just navigate to home it also display message like I have take you to home and while in exit goodbye meet you soon and in wrong command oo nonsense you don't know anything
+
+
+
