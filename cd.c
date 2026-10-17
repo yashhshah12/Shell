@@ -13,12 +13,12 @@ int changedirectory(int argc , char *arr[]){
             return 1;
         }
             if(strcmp(arr[0] , "exit" ) == 0){
-                printf("Existing_my_shell...\n");
+                printf("bye bye! meet you tommorrow Existing_my_shell...\n");
                 return -1;
             }
             if(strcmp(arr[0] , "cd") == 0){
                 if(arr[2] != NULL){            
-                    fprintf(stderr , " Command invalide : Too many argument \n");
+                    fprintf(stderr , "Nonsense You don't Command you should learn then use it Command invalide : Too many argument \n");
                     return 1;
                 }
                 
@@ -28,6 +28,7 @@ int changedirectory(int argc , char *arr[]){
                      if(chdir(home) != 0){
                          perror("Command failed");
                      }
+                     printf("See i have take you to home ");
                 }
             }else{
                 if(chdir(arr[1]) != 0){

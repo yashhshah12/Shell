@@ -24,14 +24,14 @@ int main(){
 
      while(1){      
      if(getcwd(cwd , sizeof(cwd)) != NULL){
-        printf("my_shell:%s> ", cwd);
+        printf("my_shell: Hello sir how can i help you %s> ", cwd);
      }else{
-        printf("myshell>>");
+        printf("myshell>> Hello sir how can i help you");
      }  
         fflush(stdout);
 
         if(fgets(input , buffer_size , stdin) == NULL){
-              printf("Existing_my_shell...\n");    
+              printf("bye bye! meet you tommorrow Existing_my_shell...\n");    
             break;
         }
          
@@ -65,7 +65,7 @@ int main(){
         signal(SIGTTIN , SIG_DFL);
         signal(SIGTTOU , SIG_DFL);
 
-        if(setpgid(0 , 0) == -1){
+        if(setpgimand invalide : Too many argumend(0 , 0) == -1){
         perror("Command failed");
          _exit(1);
         }
@@ -73,7 +73,7 @@ int main(){
             
         int signalPipe = direction(arr);
             execvp(*arr , arr);
-            perror("Command failed");
+            perror("Nonsense you don't know about how to use Command , Command failed");
             _exit(1);
             
     }else{
