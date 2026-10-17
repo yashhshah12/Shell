@@ -1,6 +1,6 @@
 Posix shell project
 
-Hello friend i have create a posix shell project which supporting feature such as binary execution, pipe, file redirection, signal 
+Hello friend's i have create a posix shell project which support feature such as binary execution, pipe, file redirection, signal 
 
 In this project i have learn about standard system call and rule and architecture of unix os and also learn about to navigate unix or linux man and understand the funcationality of the C library, System call and utility tool
 
